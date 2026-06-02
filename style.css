@@ -779,7 +779,7 @@ section {
     .hero-tag { margin: 0 auto 14px; }
 
      .badge-student {
-        top: auto;
+        top: 2%;
         bottom: 60%;
         right: 235px;
         padding: 5px 10px;
