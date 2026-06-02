@@ -422,7 +422,7 @@ section {
 .badge-student {
     position: absolute;
     top: 2%;
-    right: 275px;
+    right: 235px;
     background: var(--white);
     border-radius: 12px;
     padding: 7px 13px;
@@ -1572,4 +1572,17 @@ footer p {
 .project-link:hover {
     background: var(--blue);
     color: white;
+}
+
+
+.social-links,
+.contact-social {
+    position: relative;
+    z-index: 999;
+}
+
+.social-links a,
+.contact-social a {
+    position: relative;
+    z-index: 999;
 }
