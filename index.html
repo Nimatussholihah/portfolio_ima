@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Ni'matus Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                 Ni'matus <span>Sholihah</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#blogs">Blogs</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <div class="photo-ring"></div>
+                    <img src="imass.PNG" alt="Foto Ni'matus Sholihah">
+                    <div class="badge-available">
+                        <div class="dot"></div>
+                        <i class="fa-solid fa-code"></i>
+                        <span>Open to Opportunities</span>
+                    </div>
+                    <div class="badge-student">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>D3 TI Student</span>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <br><span>Ni'matus Sholihah</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"><div class="line"></div>I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Mahasiswa D3 Teknologi Informasi Universitas Brawijaya yang
+                        memiliki minat pada Web Development, UI/UX Design, dan IoT.
+                        Berpengalaman mengembangkan website, dashboard monitoring,
+                        dan integrasi REST API.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="https://www.instagram.com/xximaasha" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ni’matus-sholihah-8a2a06321?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="cv-nimatus.pdf" target="_blank">
+                        <button class="btn-primary">
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </button>
+                    </a>
+                </div>
+             </div>
+        </div>
+        </section>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+    <div class="about-container">
+        <div class="about-title">
+            <h1>About <span>Me</span></h1>
+        </div>
+        <div class="about-content">
+            <p>
+                Halo! Saya Ni'matus Sholihah, Mahasiswa D3 Teknologi Informasi 
+                Universitas Brawijaya angkatan 2024. Suka banget di dunia web dan IoT,
+                dari bikin tampilan sampai nyambungin sensor ke dashboard realtime.
+            </p>
+            <p>
+                Selama kuliah sudah ngerjain beberapa proyek, mulai dari website berbasis Laravel, 
+                desain UI/UX di Figma, sampai sistem monitoring IoT pakai ESP32 yang terintegrasi 
+                REST API. Jadi bukan cuma teori, tapi sudah coba langsung di proyek nyata.
+            </p>
+            <p>
+                Sebelum kuliah, lulusan SMK jurusan Rekayasa Perangkat Lunak dan sempat magang 
+                di PT Des Teknologi Informasi Cabang Tuban.
+            </p>
+            <p>
+                Di organisasi juga aktif. Sekarang pegang posisi Bendahara Umum BPI Himpunan 
+                Mahasiswa Ronggolawe Brawijaya, dan sebelumnya pernah jadi panitia maupun 
+                koordinator di berbagai kegiatan kampus.
+            </p>
+            <p>
+                Terbuka untuk kolaborasi project, freelance, atau sekadar diskusi soal teknologi. 
+                Yuk connect!
+            </p>
+        </div>
+    </div>
+</section>
+        
+<!-- SKILLS SECTION -->
+
+<section class="skills" id="skills">
+
+    <div class="skills-container">
+
+        <div class="skills-title">
+            <h1>My <span>Skills</span></h1>
+            <p>
+                Beberapa kemampuan yang saya pelajari di bidang 
+                Teknologi Informasi dan pengembangan website.
+            </p>
+        </div>
+
+        <div class="skills-content">
+
+    <div class="skill-box">
+        <i class="fa-brands fa-html5"></i>
+        <h2>HTML</h2>
+        <p>Membuat struktur website modern dan responsive.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h2>CSS</h2>
+        <p>Mendesain tampilan website agar lebih menarik.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-brands fa-js"></i>
+        <h2>JavaScript</h2>
+        <p>Membuat website interaktif dan dinamis.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-brands fa-php"></i>
+        <h2>PHP</h2>
+        <p>Membangun backend website sederhana.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-brands fa-laravel"></i>
+        <h2>Laravel</h2>
+        <p>Membangun aplikasi web full-stack dengan framework Laravel.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-database"></i>
+        <h2>MySQL</h2>
+        <p>Mengelola database dan penyimpanan data.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-palette"></i>
+        <h2>UI/UX Design</h2>
+        <p>Membuat desain antarmuka yang clean dan modern.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-microchip"></i>
+        <h2>IoT Development</h2>
+        <p>Mengembangkan sistem IoT menggunakan sensor dan ESP32.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-network-wired"></i>
+        <h2>REST API</h2>
+        <p>Menghubungkan website dengan database dan perangkat IoT.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-memory"></i>
+        <h2>ESP32</h2>
+        <p>Mengontrol sensor dan perangkat berbasis mikrokontroler.</p>
+    </div>
+
+    <div class="skill-box">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h2>Problem Solving</h2>
+        <p>Menyelesaikan permasalahan logika dan pengembangan sistem.</p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES SECTION -->
+
+<section class="services" id="services">
+
+    <div class="services-container">
+
+        <div class="services-title">
+            <h1>My <span>Services</span></h1>
+            <p>
+                Beberapa layanan yang dapat saya kerjakan 
+                dalam bidang Teknologi Informasi dan pengembangan website.
+            </p>
+        </div>
+
+        <div class="services-content">
+
+    <div class="service-box">
+        <i class="fa-solid fa-code"></i>
+        <h2>Website Development</h2>
+        <p>
+            Membuat website menggunakan PHP dan Laravel 
+            dengan tampilan modern dan responsive.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-brands fa-figma"></i>
+        <h2>UI/UX Design</h2>
+        <p>
+            Mendesain tampilan website di Figma 
+            dengan konsep clean, modern, dan user friendly.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-microchip"></i>
+        <h2>IoT Development</h2>
+        <p>
+            Membuat sistem IoT menggunakan ESP32, sensor, 
+            dan integrasi website secara realtime.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-network-wired"></i>
+        <h2>Network Installation</h2>
+        <p>
+            Merakit kabel LAN/UTP menggunakan konektor RJ45 
+            untuk kebutuhan jaringan internet.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-database"></i>
+        <h2>Database Management</h2>
+        <p>
+            Mengelola database website menggunakan MySQL 
+            untuk penyimpanan dan pengolahan data.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>Frontend Development</h2>
+        <p>
+            Membuat tampilan frontend website yang 
+            interaktif, responsive, dan menarik.
+        </p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- PROJECT SECTION -->
+<section class="projects" id="projects">
+    <div class="projects-container">
+        <div class="projects-title">
+            <h1>My <span>Projects</span></h1>
+            <p>
+                Tiga proyek unggulan yang pernah saya kerjakan 
+                dalam bidang website, UI/UX, dan IoT.
+            </p>
+        </div>
+
+        <div class="projects-content">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <img src="project1.png" alt="Website Laravel Pemesanan Makanan">
+                <div class="project-info">
+                    <h2>Website Laravel</h2>
+                    <p>
+                        Sistem pemesanan makanan online berbasis Laravel dengan dua role — 
+                        admin dan pembeli. Dilengkapi fitur CRUD menu, autentikasi login, 
+                        dan dashboard admin untuk memantau pesanan secara realtime.
+                    </p>
+                    <span>Laravel • PHP • MySQL</span>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <img src="project2.png" alt="UI/UX Design Figma">
+                <div class="project-info">
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Perancangan desain antarmuka aplikasi pemesanan makanan dan 
+                        perpustakaan menggunakan Figma. Mulai dari wireframe, komponen, 
+                        hingga prototype interaktif siap handoff ke developer.
+                    </p>
+                    <span>Figma • UI/UX • Design</span>
+                    <div class="project-links">
+                        <a href="https://www.figma.com/design/ONYAHuO4Tt36xsWLfxSF3U/UI-UX-Dapur-Kita?node-id=0-1&t=35EedtM9mwaXd6kx-1" target="_blank" class="project-link">
+                            <i class="fa-brands fa-figma"></i> Pemesanan Makanan
+                        </a>
+                        <a href="https://www.figma.com/design/0UdjjiCva51XuqiWLVhe7J/Perpustakaan?node-id=0-1&t=jM6KRcdIS13qMa93-1" target="_blank" class="project-link">
+                            <i class="fa-brands fa-figma"></i> Perpustakaan
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <img src="project3.jpeg" alt="IoT Monitoring System">
+                <div class="project-info">
+                    <h2>IoT Monitoring System</h2>
+                    <p>
+                        Dashboard monitoring realtime yang menerima data dari ESP32 
+                        melalui REST API. Data sensor divisualisasikan dalam grafik 
+                        dinamis yang bisa dipantau langsung dari browser.
+                    </p>
+                    <span>ESP32 • IoT • REST API</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- BLOG SECTION -->
+<section class="blogs" id="blogs">
+    <div class="blogs-container">
+
+        <div class="blogs-title">
+            <h1>My <span>Blogs</span></h1>
+            <p>
+                Dokumentasi kegiatan organisasi, proyek yang pernah dikerjakan,
+                dan sertifikat yang sudah didapatkan.
+            </p>
+        </div>
+
+        <!-- KATEGORI 1: PROYEK -->
+        <div class="blogs-category">
+            <h2 class="category-title"><i class="fa-solid fa-laptop-code"></i> Proyek</h2>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="blog1.png" alt="Website Laravel">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Laravel • PHP • MySQL</span>
+                    <h3>Website Laravel</h3>
+                    <p>Membuat website full-stack menggunakan Laravel dengan fitur CRUD, autentikasi user, dan dashboard admin yang responsive.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="project1.png" alt="Website Catering">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Laravel • PHP • MySQL</span>
+                    <h3>Website Catering</h3>
+                    <p>Website pemesanan catering berbasis Laravel, dilengkapi sistem manajemen menu, pemesanan online, dan laporan transaksi.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="dig.png" alt="Web Perpustakaan">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Laravel • PHP • MySQL</span>
+                    <h3>Web Perpustakaan</h3>
+                    <p>Sistem manajemen perpustakaan digital dengan fitur pencarian buku, peminjaman, pengembalian, dan laporan berbasis web.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="mon.png" alt="Web Monitoring">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Laravel • IoT • REST API</span>
+                    <h3>Web Monitoring IoT</h3>
+                    <p>Dashboard monitoring realtime yang menerima data dari perangkat ESP32 melalui REST API dan menampilkannya dalam grafik dinamis.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="project2.png" alt="UI/UX Design">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Figma • UI/UX</span>
+                    <h3>UI/UX Design Website</h3>
+                    <p>Mendesain mockup dan prototype website menggunakan Figma dengan konsep clean, modern, dan berorientasi pada kemudahan pengguna.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="cav.png" alt="UI/UX Web Perpustakaan">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Figma • UI/UX</span>
+                    <h3>UI/UX Web Perpustakaan</h3>
+                    <p>Perancangan antarmuka sistem perpustakaan digital di Figma, mulai dari wireframe, komponen, hingga prototype interaktif siap handoff ke developer.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="Blog3.jpeg" alt="Sistem Lalu Lintas IoT">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT</span>
+                    <h3>Sistem Lalu Lintas</h3>
+                    <p>Simulasi sistem lampu lalu lintas otomatis menggunakan ESP32 dengan logika pengaturan waktu berbasis kondisi kepadatan.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="Blog4.jpeg" alt="Monitoring Suhu">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • Sensor</span>
+                    <h3>Monitoring Suhu</h3>
+                    <p>Sistem pemantauan suhu ruangan secara realtime menggunakan sensor DHT dan ESP32, data dikirim ke server melalui REST API.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="Blog5.jpeg" alt="Kontrol Motor Servo">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • Servo</span>
+                    <h3>Kontrol Motor Servo</h3>
+                    <p>Mengontrol pergerakan motor servo menggunakan ESP32 dengan input dari web interface, cocok untuk sistem otomasi pintu atau lengan robotik.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="Blog6.jpeg" alt="Relay Motor DC">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • Relay</span>
+                    <h3>Relay Motor DC</h3>
+                    <p>Pengendalian motor DC menggunakan modul relay yang dikontrol ESP32, diaplikasikan untuk otomasi perangkat listrik sederhana.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="Blog7.jpeg" alt="Pengukuran Jarak">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • Ultrasonik</span>
+                    <h3>Pengukuran Jarak</h3>
+                    <p>Mengukur jarak menggunakan sensor ultrasonik HC-SR04 dan ESP32, hasil pengukuran ditampilkan secara realtime di serial monitor maupun web.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="project3.jpeg" alt="Tampilan OLED">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • OLED</span>
+                    <h3>Tampilan OLED</h3>
+                    <p>Menampilkan data sensor secara langsung pada layar OLED yang terhubung ke ESP32, cocok untuk proyek yang butuh display tanpa internet.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="pendeteksi.jpeg" alt="Sistem Pendeteksi Api">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • Sensor</span>
+                    <h3>Sistem Pendeteksi Api & Gas</h3>
+                    <p>Sistem keamanan berbasis ESP32 yang mampu mendeteksi kebakaran secara dini 
+                    menggunakan sensor api, sensor gas, dan sensor suhu. Dilengkapi indikator 
+                    LED merah untuk kondisi bahaya dan LED kuning untuk kondisi waspada, 
+                    serta buzzer sebagai alarm peringatan otomatis.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="Blog8.png" alt="Integrasi API">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">ESP32 • IoT • REST API</span>
+                    <h3>Integrasi API</h3>
+                    <p>Menghubungkan ESP32 dengan server backend melalui REST API untuk mengirim dan menerima data sensor secara realtime dari perangkat IoT ke web.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- KATEGORI 2: ORGANISASI -->
+    <div class="blogs-category">
+        <h2 class="category-title"><i class="fa-solid fa-users"></i> Organisasi</h2>
+
+        <div class="blog-row reverse">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="ekster1.PNG" alt="Staff Ahli Eksternal HIMALAYA">
+            </div>
+            <div class="blog-img-big">
+                <img src="ekster2.PNG" alt="Staff Ahli Eksternal HIMALAYA 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">HIMALAYA Tuban • Organisasi</span>
+            <h3>Staf Ahli Eksternal HIMALAYA Tuban</h3>
+            <p>Membantu koordinasi dan komunikasi dengan pihak eksternal organisasi. 
+            Menjalin kerja sama antara Himpunan Mahasiswa Ronggolawe Brawijaya Tuban dengan mitra luar, 
+            serta turut menjalankan berbagai program kerja himpunan.</p>
+        </div>
+    </div>
+
+    <div class="blog-row">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="psdm1.PNG" alt="Staff Ahli PSDM">
+            </div>
+            <div class="blog-img-big">
+                <img src="psdm2.jpeg" alt="Staff Ahli PSDM 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">PSDM • Organisasi</span>
+            <h3>Staff Ahli PSDM HMPSTI</h3>
+            <p>Bergabung sebagai Staff Ahli bidang PSDM di Himpunan Mahasiswa Teknologi Informasi. Terlibat dalam pengembangan sumber daya mahasiswa dan berbagai program kerja divisi.</p>
+        </div>
+    </div>
+
+    <div class="blog-row reverse">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="itchar1.PNG" alt="CO IT Charity HMPSTI">
+            </div>
+            <div class="blog-img-big">
+                <img src="itchar2.PNG" alt="CO IT Charity 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">HMPSTI • Kepanitiaan</span>
+            <h3>Coordinator IT Charity</h3>
+            <p>Menjadi Coordinator (CO) acara IT Charity yang diadakan oleh HMPSTI. Bertanggung jawab atas koordinasi teknis dan jalannya acara dari awal hingga selesai.</p>
+        </div>
+    </div>
+
+    <div class="blog-row">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="humas1.png" alt="CO Humas dan Talent Himalaya Tuban">
+            </div>
+            <div class="blog-img-big">
+                <img src="humas2.png" alt="CO Humas dan Talent 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">Himalaya Tuban • Kepanitiaan</span>
+            <h3>Coordinator Humas & Talent</h3>
+            <p>Menjabat sebagai CO Humas dan Talent di kegiatan Himalaya Tuban. Mengelola hubungan eksternal dan koordinasi talent selama acara berlangsung.</p>
+        </div>
+    </div>
+
+    <div class="blog-row reverse">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="wakapel1.PNG" alt="Wakil Ketua Pelaksana">
+            </div>
+            <div class="blog-img-big">
+                <img src="wakapel2.jpeg" alt="Tech Planner">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">Organisasi HMPSTI • Kepanitiaan</span>
+            <h3>Wakil Ketua Pelaksana Tech Planner</h3>
+            <p>Mendampingi ketua dalam mengatur dan mengoordinasikan jalannya kegiatan organisasi. 
+            Bertanggung jawab atas perencanaan teknis, pelaksanaan program kerja, serta 
+            berkoordinasi dengan seluruh panitia untuk memastikan kelancaran acara dari awal hingga selesai.</p>
+        </div>
+    </div>
+
+    <div class="blog-row">
+    <div class="blog-img-group">
+        <div class="blog-img-big">
+            <img src="samba1.jpg" alt="CO Kesehatan Sambut Maba TI 2025">
+        </div>
+        <div class="blog-img-big">
+            <img src="samba2.jpg" alt="CO Kesehatan Sambut Maba TI 2025">
+        </div>
+    </div>
+    <div class="blog-text">
+        <span class="blog-tag">Sambut Maba TI 2025 • Kepanitiaan</span>
+        <h3>Coordinator Kesehatan Sambut Maba TI 2025</h3>
+        <p>Menjadi Coordinator divisi Kesehatan dalam kegiatan penyambutan mahasiswa baru 
+        Program Studi Teknologi Informasi angkatan 2025. Bertanggung jawab memastikan 
+        kondisi kesehatan seluruh peserta dan panitia terpantau dengan baik selama 
+        rangkaian acara berlangsung.</p>
+    </div>
+</div>
+
+    <div class="blog-row reverse">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="tecf1.PNG" alt="Staff Sponsorship Tech Fair">
+            </div>
+            <div class="blog-img-big">
+                <img src="tecf2.PNG" alt="Staff Sponsorship Tech Fair 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">Tech Fair Vol 1 HMPSTI • Kepanitiaan</span>
+            <h3>Staf Sponsorship Tech Fair Vol 1</h3>
+            <p>Membantu proses kerja sama dan komunikasi dengan sponsor kegiatan Tech Fair Vol 1. 
+            Mendukung pengelolaan kebutuhan sponsorship selama acara berlangsung agar kegiatan 
+            berjalan lancar dan sesuai target.</p>
+        </div>
+    </div>
+
+    <div class="blog-row">
+    <div class="blog-img-group">
+        <div class="blog-img-big">
+                <img src="tec1.JPG" alt="Staff Dekor Tecno Competition">
+            </div>
+            <div class="blog-img-big">
+                <img src="tec2.JPG" alt="Staff Dekor Tecno Competition 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">Tecno Competition Vol 2 HMPSTI • Kepanitiaan</span>
+            <h3>Staf Dekorasi Tecno Competition Vol 2</h3>
+            <p>Terlibat sebagai staf divisi dekorasi dalam kegiatan Tecno Competition Vol 2. 
+            Bertanggung jawab atas persiapan dan penataan dekorasi venue agar acara 
+            terlihat menarik dan profesional.</p>
+        </div>
+    </div>
+
+    <div class="blog-row reverse">
+        <div class="blog-img-group">
+            <div class="blog-img-big">
+                <img src="crea1.jpg" alt="Staff Konsumsi Creanomic">
+            </div>
+            <div class="blog-img-big">
+                <img src="crea2.JPG" alt="Staff Konsumsi Creanomic 2">
+            </div>
+        </div>
+        <div class="blog-text">
+            <span class="blog-tag">Creanomic 2025 • BEM Vokasi</span>
+            <h3>Staf Konsumsi Creanomic 2025</h3>
+            <p>Bergabung sebagai staf divisi konsumsi dalam kegiatan Creanomic 2025 
+            yang diselenggarakan oleh Badan Eksekutif Mahasiswa Fakultas Vokasi. 
+            Memastikan kebutuhan konsumsi seluruh panitia dan peserta terpenuhi dengan baik.</p>
+        </div>
+    </div>
+
+</div>
+
+        <!-- KATEGORI 3: SERTIFIKAT -->
+        <div class="blogs-category">
+            <h2 class="category-title"><i class="fa-solid fa-certificate"></i> Sertifikat</h2>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="Blog9.png" alt="Sertifikat Staff Ahli PSDM">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Organisasi • PSDM</span>
+                    <h3>Sertifikat Staff Ahli PSDM</h3>
+                    <p>Sertifikat atas kontribusi sebagai Staff Ahli bidang PSDM dalam kegiatan organisasi kemahasiswaan di lingkungan Universitas Brawijaya.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="Blog10.png" alt="Sertifikat CO IT Charity">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Kepanitiaan • HMPSTI</span>
+                    <h3>Sertifikat CO IT Charity</h3>
+                    <p>Sertifikat sebagai Coordinator acara IT Charity yang diselenggarakan oleh HMPSTI, sebagai bukti kontribusi dalam kepanitiaan kegiatan teknologi informasi.</p>
+                </div>
+            </div>
+
+            <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="Blog11.png" alt="Sertifikat CO Humas dan Talent">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Kepanitiaan • Himalaya</span>
+                    <h3>Sertifikat CO Humas & Talent</h3>
+                    <p>Sertifikat sebagai Coordinator Humas dan Talent dalam kegiatan Himalaya, mencakup pengelolaan komunikasi eksternal dan koordinasi talent acara.</p>
+                </div>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-img-big">
+                    <img src="sertifi.PNG" alt="Sertifikat Creanomic 2025">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Creanomic 2025 • BEM Vokasi</span>
+                    <h3>Sertifikat Staf Konsumsi Creanomic 2025</h3>
+                    <p>Sertifikat atas kontribusi sebagai Staf Konsumsi dalam kegiatan Creanomic 2025 yang diselenggarakan oleh Badan Eksekutif Mahasiswa Fakultas Vokasi Universitas Brawijaya.</p>
+                </div>
+            </div>
+
+             <div class="blog-row reverse">
+                <div class="blog-img-big">
+                    <img src="sertivi.png" alt="Sertifikat Magang SMK">
+                </div>
+                <div class="blog-text">
+                    <span class="blog-tag">Magang • SMK • RPL</span>
+                    <h3>Sertifikat Magang</h3>
+                    <p>Sertifikat magang di PT Des Teknologi Informasi Cabang Tuban semasa SMK jurusan Rekayasa Perangkat Lunak. Pengalaman kerja nyata pertama di industri IT.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+
+    <div class="contact-title">
+
+        <h1>Get In <span>Touch</span></h1>
+
+        <p>
+            Saya terbuka untuk kerja sama, project,
+            maupun diskusi seputar teknologi dan pengembangan website.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h2>Email</h2>
+
+            <p>nimatus.sholihah.a284@gmail.com</p>
+
+        </div>
+
+        <div class="contact-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <h2>WhatsApp</h2>
+            <a href="https://wa.me/6289687360528" target="_blank">
+                <p>+62 896 8736 0528</p>
+            </a>
+        </div>
+
+        <div class="contact-card">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <h2>Location</h2>
+
+            <p>Jenu, Tuban, Indonesia</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+
+        <footer>
+            <p>© 2025 Ni'matus Sholihah. All rights reserved.</p>
+        </footer>
+</body>
+</html>
