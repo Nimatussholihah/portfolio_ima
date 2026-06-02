@@ -780,10 +780,9 @@ section {
 
      .badge-student {
         top: auto;
-        bottom: 60%;
-        right: 235px;
+        bottom: 1000%;
+        right: 255px;
         padding: 2px 13px;
-         height: 238px;
     }
 
     .badge-student span {
