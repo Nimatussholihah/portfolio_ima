@@ -541,7 +541,7 @@ section {
     20%, 39% { content: "Web Developer"; }
     40%, 59% { content: "UI/UX Designer"; }
     60%, 79% { content: "IoT Developer"; }
-    80%,100% { content: "Bendahara Umum (BPI) HIMALAYA"; }
+    80%,100% { content: "Bendahara Umum HIMALAYA"; }
 }
 
 /* PARAGRAPH */
@@ -777,6 +777,31 @@ section {
     .btn { justify-content: center; }
     .content p { text-align: center; margin: 16px auto; }
     .hero-tag { margin: 0 auto 14px; }
+
+     .badge-student {
+        top: auto;
+        bottom: 60%;
+        right: -5px;
+        padding: 5px 10px;
+    }
+
+    .badge-student span {
+        font-size: 0.58rem;
+    }
+
+    .badge-student i {
+        font-size: 0.8rem;
+    }
+
+    .badge-available {
+        bottom: 20%;
+        right: -5px;
+        padding: 6px 10px;
+    }
+
+    .badge-available span {
+        font-size: 0.58rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1517,23 +1542,6 @@ section {
     padding: 8px;
     display: block;
     border-radius: 10px;
-}
-
-.project-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 12px;
-    color: var(--blue);
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-.project-link:hover {
-    color: var(--navy);
-    gap: 10px;
 }
 
 footer {
