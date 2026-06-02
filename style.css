@@ -1594,3 +1594,19 @@ footer p {
     position: relative;
     z-index: 999;
 }
+
+@media (max-width: 884px) {
+
+    .cancel{
+        color: #ffffff !important;
+        z-index: 99999 !important;
+        right: 20px;
+        top: 20px;
+        font-size: 2rem;
+    }
+
+    .cancel i{
+        color: #ffffff !important;
+    }
+
+}
